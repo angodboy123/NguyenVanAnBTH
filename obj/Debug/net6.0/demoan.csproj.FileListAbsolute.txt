@@ -1,0 +1,8 @@
+C:\Users\An Nguyen\Desktop\Netcoer\demoan\obj\Debug\net6.0\demoan.csproj.AssemblyReference.cache
+C:\Users\An Nguyen\Desktop\Netcoer\demoan\obj\Debug\net6.0\demoan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\An Nguyen\Desktop\Netcoer\demoan\obj\Debug\net6.0\demoan.AssemblyInfoInputs.cache
+C:\Users\An Nguyen\Desktop\Netcoer\demoan\obj\Debug\net6.0\demoan.AssemblyInfo.cs
+C:\Users\An Nguyen\Desktop\Netcoer\demoan\obj\Debug\net6.0\demoan.csproj.CoreCompileInputs.cache
+C:\Users\An Nguyen\Desktop\Netcoer\demoan\obj\Debug\net6.0\demoan.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\An Nguyen\Desktop\Netcoer\demoan\obj\Debug\net6.0\demoan.RazorAssemblyInfo.cache
+C:\Users\An Nguyen\Desktop\Netcoer\demoan\obj\Debug\net6.0\demoan.RazorAssemblyInfo.cs
