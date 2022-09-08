@@ -7,17 +7,17 @@ namespace demoan.Models
         {
             
         }
-        public int Sum(int x, int y)
+    public int Sum(int x, int y)
     {
         return x + y;
     }
-        public int Employee(int manv, string tennv, string diachi)
+    public int Employee(int manv, string tennv, string diachi)
     {
 
     }
-    public int Person(float cao, float nang,int tuoi)
+    public int Person(float cao, float nang, int tuoi)
     {
         return 1;
     }
-        
+
 }
