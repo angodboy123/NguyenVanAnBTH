@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using demoan.Models;
+using NguyenVanAnBTH.Models;
 
-namespace demoan.Controllers;
+namespace NguyenVanAnBTH.Controllers;
 
 public class HomeController : Controller
 {

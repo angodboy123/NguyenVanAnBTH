@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\An Nguyen\\Desktop\\Netcoer\\demoan\\demoan.csproj",
+      "projectUniqueName": "C:\\Users\\An Nguyen\\Desktop\\Netcoer\\NguyenVanAnBTH\\demoan.csproj",
       "projectName": "demoan",
-      "projectPath": "C:\\Users\\An Nguyen\\Desktop\\Netcoer\\demoan\\demoan.csproj",
+      "projectPath": "C:\\Users\\An Nguyen\\Desktop\\Netcoer\\NguyenVanAnBTH\\demoan.csproj",
       "packagesPath": "C:\\Users\\An Nguyen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\An Nguyen\\Desktop\\Netcoer\\demoan\\obj\\",
+      "outputPath": "C:\\Users\\An Nguyen\\Desktop\\Netcoer\\NguyenVanAnBTH\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\An Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",

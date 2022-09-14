@@ -1,19 +1,22 @@
-<h2>Thông tin cá nhân: @ViewBag.mess</h2>
-<form asp-action="Index">
-    <label>Họ tên: </label>
-    <input type="text" name="PersonName">
-    <br>
-    <label>Tuổi: </label>
-    <input type="text" name="PsAge">
-    <br>
-    <label>Địa chỉ: </label>
-    <input type="text" name="PsAdd">
-    <br>
-    <label>Giới tính: </label>
-    <br>
-    <input type="radio" name="PsGender" value="Nam" checked>Nam
-    <br>
-    <input type="radio" name="PsGender" value="Nữ">Nữ
-    <br>
-    <input class="btn btn-danger" type="submit" value="Save">
-</form>
+<table class="table border">
+    <tr>
+        <th>
+            <label>Person Id</label>
+        </th>
+        <th>
+            <label>Person Name</label>
+        </th>
+        <th>
+            <label>Person Age</label>
+        </th>
+    </tr>
+
+    @foreach (var item in ViewData["Person"] as List<Person>)
+    {
+        <tr>
+            <td>@item.PersonID</td>
+            <td>@item.PersonName</td>
+            <td>@item.PersonAge</td>
+        </tr>
+    }
+</table>
