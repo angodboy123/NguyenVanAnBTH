@@ -1,4 +1,4 @@
-namespace demoan.Models;
+namespace NguyenVanAnBTH.Models;
 
 public class ErrorViewModel
 {

@@ -1,23 +1,13 @@
-<h1>Danh sách sinh viên</h1>
-<br>
-<table class="table border" >
-    <tr>
-        <th>
-            <label> StudentID</label>
-        </th>
-        <th>
-            <label> StudentName</label>
-        </th>
-        <th>
-            <label> Age</label>
-        </th>
-    </tr>
-    @foreach (var item in ViewData["Student"] as List<Student>)
-        {
-            <tr>
-            <td>@item.StudentID</td>
-            <td>@item.StudentName</td>
-            <td>@item.Age</td>
-            </tr>
-        }
-</table>
+<h2>Thông tin sinh viên: @ViewBag.mess</h2>
+<form asp-action="Index">
+    <label>ID SV: </label>
+    <input type="number" name="StudentID">
+    <br>
+    <label>Họ tên SV: </label>
+    <input type="text" name="StudentName">
+    <br>
+    <label>Tuổi: </label>
+    <input type="text" name="StudentAge">
+    <br>
+    <input class="btn btn-danger" type="submit" value="Save">
+</form>
