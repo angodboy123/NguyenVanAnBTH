@@ -1,4 +1,4 @@
-namespace TRANHOANGCHUNGBTH.Models.Process
+namespace NguyenVanAnBTH.Models.Process
 {
     public class GPT
     {

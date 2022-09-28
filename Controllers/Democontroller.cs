@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using NguyenVanAnBTH.Models;
 using NguyenVanAnBTH.Models.Process;
-
 namespace NguyenVanAnBTH.Controllers
 {
     public class DemoController : Controller
@@ -25,4 +24,18 @@ namespace NguyenVanAnBTH.Controllers
             return View();
         }
     }
+    public IActionResult XuLyChuoi ()
+{
+    return View();
 }
+[HttpPost]
+public IActionResult XulyChuoi(string strInput)
+{
+        public string RemoveRemainingWhiteSpace (string strInput)
+    // Viewbag
+    ViewBag.thongTin = strPro.RemoveRemainingWhiteSpace
+    
+    return View();
+}
+}
+
