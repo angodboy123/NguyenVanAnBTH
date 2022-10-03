@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using NguyenVanAnBTH.Models;
 using NguyenVanAnBTH.Models.Process;
+
 namespace NguyenVanAnBTH.Controllers
 {
     public class DemoController : Controller
@@ -8,6 +9,7 @@ namespace NguyenVanAnBTH.Controllers
         //Chuyen kieu du lieu
         //string x="100";=> y=int.Parse("100");
         GPT giai = new GPT();
+        StringProcess strPro = new StringProcess();
         public IActionResult Index()
         {
             
@@ -23,19 +25,17 @@ namespace NguyenVanAnBTH.Controllers
             ViewBag.thongbao=mess;
             return View();
         }
+        
+        public IActionResult Xulychuoi()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Xulychuoi(string strInput)
+        {
+            string strResult = strPro.khoangtrang(strInput);
+            ViewBag.thongbao=strResult;
+            return View();
+        }
     }
-    public IActionResult XuLyChuoi ()
-{
-    return View();
 }
-[HttpPost]
-public IActionResult XulyChuoi(string strInput)
-{
-        public string RemoveRemainingWhiteSpace (string strInput)
-    // Viewbag
-    ViewBag.thongTin = strPro.RemoveRemainingWhiteSpace
-    
-    return View();
-}
-}
-
